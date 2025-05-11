@@ -1,0 +1,94 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D"
+    },
+    "python@3.10": {
+      "last_modified": "2025-05-06T08:06:31Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#python310",
+      "source": "devbox-search",
+      "version": "3.10.17",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/65fsnpwj8dparbrd1g0gii9r1099w1s3-python3-3.10.17",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/638146408qzpdh73mhwf0ryzxhmrgpsi-python3-3.10.17-debug"
+            }
+          ],
+          "store_path": "/nix/store/65fsnpwj8dparbrd1g0gii9r1099w1s3-python3-3.10.17"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/snm6kxa5bkjip2fx2nnlrpb7iwa5yhs6-python3-3.10.17",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/p5ws74ai53qr769fxhpzhmll8cffv8ns-python3-3.10.17-debug"
+            }
+          ],
+          "store_path": "/nix/store/snm6kxa5bkjip2fx2nnlrpb7iwa5yhs6-python3-3.10.17"
+        }
+      }
+    },
+    "ripgrep@latest": {
+      "last_modified": "2025-05-06T08:06:31Z",
+      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#ripgrep",
+      "source": "devbox-search",
+      "version": "14.1.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sww176gkmj1mb9ad1zcw6mwvkz4r49w5-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sww176gkmj1mb9ad1zcw6mwvkz4r49w5-ripgrep-14.1.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/787zz1qyq4x42gwq0hc0v3sbdq6j8w8l-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/787zz1qyq4x42gwq0hc0v3sbdq6j8w8l-ripgrep-14.1.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/58v85r64y0nxl43s4jcy56b3ip6xws9l-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/58v85r64y0nxl43s4jcy56b3ip6xws9l-ripgrep-14.1.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7cli62frc44ixw5hp8fhfhmzwgl3w6qw-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7cli62frc44ixw5hp8fhfhmzwgl3w6qw-ripgrep-14.1.1"
+        }
+      }
+    }
+  }
+}
